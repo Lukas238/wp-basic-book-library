@@ -1,0 +1,86 @@
+/* BOOKSHELF */
+
+.post-type-archive-bbl_post_book #primary .page-title,
+.tax-bbl_genres_taxonomy #primary .page-title,
+.tax-bbl_series_taxonomy #primary .page-title{
+	border: none;
+	margin-top: 0;
+	padding: 0;
+	text-align: center;
+	font-size: 50px;
+	margin-bottom: 13px;
+	font-family: "Roboto Slab";
+	font-weight: 300;
+	line-height: 1.2;
+	color: inherit;
+	border-bottom: 1px solid #eee;
+	padding-top: 80px;
+	
+}
+
+.post-type-archive-bbl_post_book #content,
+.tax-bbl_genres_taxonomy  #content,
+.tax-bbl_series_taxonomy  #content{
+	position: relative;
+	padding: 80px 90px 0 90px;
+	padding-top: 30px; 
+	border-bottom: 1px solid #eee;
+}
+
+
+
+#bookshelf article{
+	position: relative;
+	width: 100%;
+	padding: 10px 10px 0 10px;
+}
+
+#bookshelf > .pure-g > .pure-u-1-3{
+	border-bottom: 10px solid #222;
+	margin-bottom: 50px;
+}
+
+#bookshelf article{
+	border-bottom: none;
+}
+
+#bookshelf article header{
+	display: none;
+}
+
+#bookshelf article:hover header{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #000;
+	color: #fff;
+	text-align: center;
+	display: block;
+	overflow: hidden;
+	font-size: 1em;
+}
+
+#bookshelf article .entry-title{
+	font-size: 1.8em;
+	margin: 0;
+	display: table;
+	height: 100%;
+}
+
+#bookshelf article .entry-title a{
+	color: #fff;
+	display: table-cell;
+	vertical-align: middle;
+	padding: 10px;
+}
+
+#bookshelf article .entry-thumbnail{
+	margin: 0;
+}
+
+#bookshelf article .entry-thumbnail img{
+	display: inline-block;
+	border: 1px solid #ccc;
+}

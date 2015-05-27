@@ -1,0 +1,146 @@
+﻿/* PLUGNIN ADMIN MENU ICON */ 
+#adminmenu #menu-posts-bbl_post_book .wp-menu-image:before {
+	content: "\f02d";
+	font-family: 'FontAwesome' !important;
+	font-size: 18px !important;
+}
+
+/* PURECSS TEXTAREA */
+.pure-form-aligned .pure-control-group-textarea label{
+	margin-top: 10px;
+	float: left;
+	margin-bottom: -50px;
+}
+
+.pure-control-group-textarea .wp-editor-wrap{
+	padding-left: 146px;
+}
+
+
+
+body.post-type-bbl_post_book .popup-retive-data .mfp-content{
+	width: 500px;
+	height: 366px;
+}
+
+/* BUTTON AUTHOR SORT */
+body.post-type-bbl_post_book #btn-update-author-sort span {
+	display: none;
+}
+
+body.post-type-bbl_post_book #btn-update-author-sort:after {
+	content: "\f021";
+	font-family: FontAwesome;
+	color: #555;
+}
+
+
+/* BUTTON ISBN SEARCH */
+body.post-type-bbl_post_book #btn-get-obl span {
+	display: none;
+}
+
+body.post-type-bbl_post_book #btn-get-obl:after {
+	content: "\f002";
+	font-family: FontAwesome;
+	color: #555;
+} 
+
+
+#book-file-list .file-item{
+	/*margin-left: 146px;*/
+}
+
+#book-file-list label{
+	font-style: italic;
+}
+
+#book-file-list #box-add-file label{
+	font-style: normal;
+}
+
+#book-file-list .file-item{
+	margin-left: 0;
+	display: inline-block;
+}
+
+
+
+#book-file-list .btn-add-file > span {
+	display: none;
+}
+
+#book-file-list .btn-add-file:before {
+	content: "\f067";
+	font-family: 'FontAwesome';
+}
+
+#book-file-list .btn-remove-file > span {
+	display: none;
+}
+
+#book-file-list .btn-remove-file:before {
+	content: "\f014";
+	font-family: 'FontAwesome';
+}
+
+#book-file-list .file-item {
+	margin-top: 8px;
+	position: relative;
+}
+
+#book-file-list .file-item input{
+	padding-left: 25px;
+}
+
+/* File Type Icons */
+#book-file-list .file-item:before{
+	content: '\f016';
+	font-family: 'FontAwesome';
+	color: #aaa;
+	position: absolute;
+	top: 8px;
+	left: 8px;
+}
+
+/* File: ZIP, RAR, 7z */
+#book-file-list .file-item-zip:before,
+#book-file-list .file-item-7z:before,
+#book-file-list .file-item-rar:before{
+	content: '\f1c6';
+}
+
+/* File: TXT */
+#book-file-list .file-item-txt:before{
+	content: '\f0f6';
+}
+
+/* File: DOC */
+#book-file-list .file-item-doc:before,
+#book-file-list .file-item-docx:before,
+#book-file-list .file-item-rtf:before{
+	content: '\f1c2';
+}
+
+/* File: PDF */
+#book-file-list .file-item-pdf:before{
+	content: '\f1c1';
+}
+
+
+#book-file-list #box-add-file + .pure-control-group {
+	margin-top: 10px;
+	padding-top: 10px;
+	border-top: 1px solid #ddd;
+}
+
+#book-file-list #box-add-file + pure-control-group .file-item:before{
+	top: 18px;
+}
+
+
+#book-file-list #box-add-file {
+	border: none;
+	padding-top: 0;
+	
+}		

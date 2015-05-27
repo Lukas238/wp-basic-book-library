@@ -1,0 +1,9 @@
+﻿.post-type-archive-bbl_post_book .terms-list{
+	text-align: center;
+}
+
+.post-type-archive-bbl_post_book .terms-list .pure-menu-selected a{
+	background: #444;
+	color: #fff;
+	font-weight: bold;
+}
